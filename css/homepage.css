@@ -5,7 +5,7 @@
 
 
 .wrapper {
-    background: url(images/homebg.png) no-repeat;
+    background: url(https://raw.githubusercontent.com/emirbagdatli/dijitalkuaforum-html-css/main/images/homebg.png) no-repeat;
     background-size: cover;
     height: 100vh;
 }

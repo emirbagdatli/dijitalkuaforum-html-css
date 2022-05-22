@@ -4,7 +4,7 @@
 }
 
 .background {
-    background: url('images/randevubg.png') no-repeat;
+    background: url(https://raw.githubusercontent.com/emirbagdatli/dijitalkuaforum-html-css/main/images/randevubg.png) no-repeat;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
