@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    background: url('images/randevubg.png') no-repeat;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.blur {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
+    height: 100%;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    opacity: 75%;
+    margin-left: -75%;
+    padding: 0px 10%;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: -20%;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    color: #ffff;
+    padding: 10%;
+}
+
+
+
+.tarih {
+    margin-top: 10%;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 5%;
+    border: 0px;
+    opacity: 80%;
+    color: black;
+    margin-bottom: 10%;
+
+}
+
+.detay {
+    margin-top: 10%;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 10%;
+    border: 0px;
+    opacity: 80%;
+}
+
+.button1 {
+    margin-top: 10%;
+    width: 50%;
+    height: 5%;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid #0000;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button1 button:hover {
+    background: black;
+    color: black;
+}
+
+
+
+.button {
+
+    width: 20%;
+    height: 20%;
+    font-size: 12;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.overlay {
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+
+    margin: 70px auto;
+    padding: 8%;
+    background: #fff;
+    border-radius: 5px;
+    width: 45%;
+
+    position: relative;
+    transition: all 2s ease-in-out;
+}
+
+.popup h2 {
+    margin-top: 0;
+    padding: 5%;
+    font-size: 14;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #000;
+}
+
+.popup .content {
+
+    max-height: 30%;
+    font-size: larger;
+    overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+
+    .popup {
+        width: 70%;
+    }
+}

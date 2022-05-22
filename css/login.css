@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    background: url('images/homewp.png') no-repeat;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.blur {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    height: 100%;
+    width: 30%;
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+.logo {
+    margin-top: 10%;
+    width: 30%;
+    height: auto;
+    padding: 0px 10%;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 2px black;
+    color: #ffff;
+    padding: 10%;
+
+}
+
+.kullanci {
+    margin-top: 10%;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 5%;
+    border: 0px;
+    opacity: 60%;
+}
+
+.sifre {
+    margin-top: 10%;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 5%;
+    border: 0px;
+    opacity: 60%;
+}
+
+.button1 {
+    margin-top: 10%;
+    width: 50%;
+    height: 5%;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    border-radius: 30px;
+    border: 1px solid #0000;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.button1 button:hover {
+    background: black;
+    color: white;
+}
